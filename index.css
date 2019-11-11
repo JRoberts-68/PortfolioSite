@@ -1,15 +1,24 @@
 * {
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'EB Garamond', serif;
+    margin: 0%;
+
+}
+
 .core{
     font-size: 20px;
     text-align: center;
     color: #444;
+    background-color: #e3dac9;
 }
 
 nav, footer {
     padding: 1%;
-    background-color: #333;
+    background-color: rgb(29, 29, 29);
+    color: silver;
 }
 
 nav{
@@ -18,6 +27,7 @@ nav{
     right: 0;
     left: 0;
     z-index: 10;
+    border-bottom: 1px solid rgb(102, 78, 18);
 }
 
 header{
@@ -30,7 +40,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
   
   li {
@@ -39,14 +48,16 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: silver;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #e3dac9;
+    color: black;
+    border-radius: 2%;
   }
 
   .row{
@@ -56,18 +67,25 @@ ul {
 
 
   .alpha{
-      background-color: rgba(255, 228, 196, 0.11);
       flex: 30%;
+      border-right:1px black solid;
   }
 
   .beta{
-      background-color: blanchedalmond;
       flex: 70%;
   }
 
   section{
       min-height: 200px;
-      background-color: grey;
       padding: 5%;
   }
 
+.bio{
+    background-color: rgb(29, 29, 29)    !important;
+    color: silver                !important;
+    font-style: italic            !important;
+}
+
+p{
+    line-height: 1.6;
+}
