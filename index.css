@@ -31,8 +31,9 @@ nav{
 }
 
 header{
-    padding: 13%;
-
+    padding: 10%;
+    height: auto;
+    width: auto;
 }
 
 ul {
@@ -88,4 +89,17 @@ ul {
 
 p{
     line-height: 1.6;
+}
+
+.intro{
+    display: flex;
+}
+
+.name {
+    flex: 30%;
+    border-right: 1px black solid;
+}
+
+.blurb{
+    flex: 70%;
 }
