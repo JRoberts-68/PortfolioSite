@@ -16,7 +16,7 @@ body{
 }
 
 nav, footer {
-    padding: 1%;
+    padding: .5%;
     background-color: rgb(29, 29, 29);
     color: silver;
 }
@@ -51,7 +51,7 @@ ul {
     display: block;
     color: silver;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
   }
   
