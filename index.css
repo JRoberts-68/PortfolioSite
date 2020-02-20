@@ -171,8 +171,8 @@ footer{
         flex-direction: row;
     }
     .photo{
-        max-width: 60%;
-        max-height: 60%;
+        max-width: 70%;
+        max-height: 70%;
     }
 
 }
