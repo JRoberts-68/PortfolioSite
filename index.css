@@ -115,6 +115,11 @@ p{
     max-height: 100%;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 320px){
     
 
@@ -128,7 +133,9 @@ p{
         border-right: none;
     }
 
-
+    .bio{
+        text-align: left;
+    }
 
 }
 
